@@ -397,7 +397,7 @@ public class LauncherFrame extends DraggableFrame implements IRelocalizableResou
         headerLabel.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                DesktopUtils.browseUrl("https://www.technicpack.net/");
+                DesktopUtils.browseUrl("https://www.dopaminenetwork.com/");
             }
         });
         header.add(headerLabel);
@@ -615,14 +615,14 @@ public class LauncherFrame extends DraggableFrame implements IRelocalizableResou
         installProgressPlaceholder = Box.createHorizontalGlue();
         footer.add(installProgressPlaceholder);
 
-        JButton buildCtrl = new JButton(resources.getIcon("akliz-logo.png"));
+        JButton buildCtrl = new JButton(resources.getIcon("dopamine.png"));
         buildCtrl.setBorder(BorderFactory.createEmptyBorder());
         buildCtrl.setContentAreaFilled(false);
         buildCtrl.setHorizontalTextPosition(SwingConstants.RIGHT);
         buildCtrl.setHorizontalAlignment(SwingConstants.RIGHT);
         buildCtrl.setFocusable(false);
         buildCtrl.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
-        buildCtrl.addActionListener(e -> DesktopUtils.browseUrl("https://www.akliz.net/technic"));
+        buildCtrl.addActionListener(e -> DesktopUtils.browseUrl("https://www.dopaminenetwork.com/technic"));
         footer.add(buildCtrl);
 
         getRootPane().getContentPane().add(footer, BorderLayout.PAGE_END);

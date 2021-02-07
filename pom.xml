@@ -7,8 +7,8 @@
     <groupId>net.technicpack</groupId>
     <artifactId>launcher</artifactId>
     <version>${revision}</version>
-    <url>https://www.technicpack.net</url>
-    <inceptionYear>2014</inceptionYear>
+    <url>https://www.dopaminenetwork.com</url>
+    <inceptionYear>2021</inceptionYear>
     <description>Minecraft launcher for installing and updating Modpacks from the Technic Platform.</description>
 
     <!-- Build properties -->
@@ -21,22 +21,22 @@
 
     <!-- Company information -->
     <organization>
-        <url>https://www.technicpack.net</url>
+        <url>https://www.dopaminenetwork.com</url>
         <name>Syndicate, LLC</name>
     </organization>
 
     <!-- Source code access -->
     <scm>
-        <developerConnection>scm:git:git@github.com:TechnicPack/LauncherV3.git</developerConnection>
-        <connection>scm:git:git://github.com/TechnicPack/LauncherV3.git</connection>
-        <url>https://github.com/TechnicPack/LauncherV3/tree/dev</url>
+        <developerConnection>scm:git:git@github.com:B3CKDOOR/LauncherV3.git</developerConnection>
+        <connection>scm:git:git://github.com/B3CKDOOR/LauncherV3.git</connection>
+        <url>https://github.com/B3CKDOOR/LauncherV3/tree/dev</url>
     </scm>
 
-    <!-- Build server -->
+    <!-- Build server 
     <ciManagement>
         <system>jenkins</system>
-        <url>http://jenkins.technicpack.net/job/LauncherV3/</url>
-    </ciManagement>
+        <url>http://jenkins.dopaminenetwork.com/job/LauncherV3/</url>
+    </ciManagement>-->
 
     <!-- Project dependencies -->
     <dependencies>
